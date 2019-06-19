@@ -15,6 +15,8 @@
 		9B44617322BA70B6007A86D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B44617122BA70B6007A86D5 /* Main.storyboard */; };
 		9B44617522BA70B6007A86D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B44617422BA70B6007A86D5 /* Assets.xcassets */; };
 		9B44617822BA70B6007A86D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B44617622BA70B6007A86D5 /* LaunchScreen.storyboard */; };
+		9B44618622BA8455007A86D5 /* Level2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B44618522BA8455007A86D5 /* Level2.swift */; };
+		9B44618822BA8469007A86D5 /* Level3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B44618722BA8469007A86D5 /* Level3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		9B44617422BA70B6007A86D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B44617722BA70B6007A86D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B44617922BA70B6007A86D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B44618522BA8455007A86D5 /* Level2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level2.swift; sourceTree = "<group>"; };
+		9B44618722BA8469007A86D5 /* Level3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				9B44617422BA70B6007A86D5 /* Assets.xcassets */,
 				9B44617622BA70B6007A86D5 /* LaunchScreen.storyboard */,
 				9B44617922BA70B6007A86D5 /* Info.plist */,
+				9B44618522BA8455007A86D5 /* Level2.swift */,
+				9B44618722BA8469007A86D5 /* Level3.swift */,
 			);
 			path = iosTest;
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B44618822BA8469007A86D5 /* Level3.swift in Sources */,
 				9B44616E22BA70B6007A86D5 /* GameScene.swift in Sources */,
+				9B44618622BA8455007A86D5 /* Level2.swift in Sources */,
 				9B44617022BA70B6007A86D5 /* GameViewController.swift in Sources */,
 				9B44616822BA70B6007A86D5 /* AppDelegate.swift in Sources */,
 			);

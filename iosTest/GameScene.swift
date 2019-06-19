@@ -11,7 +11,6 @@ import SpriteKit
 import GameplayKit
 
 
-// initial commit
 
 class GameScene: SKScene {
     
@@ -41,6 +40,7 @@ class GameScene: SKScene {
         }
     }
     
+   
     
     func touchDown(atPoint pos : CGPoint) {
         if let n = self.spinnyNode?.copy() as! SKShapeNode? {
